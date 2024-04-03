@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace UI.TabSystems.Handler {
+namespace JoyJab.TabSystem {
     
     [Serializable]
     public class OnOffMultiple : IOnOffHandler {

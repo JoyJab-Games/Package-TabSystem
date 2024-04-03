@@ -1,4 +1,4 @@
-﻿namespace UI.TabSystems.Handler {
+﻿namespace JoyJab.TabSystem {
     public interface IOnOffHandler {
 
         public void SetActive(bool active) {

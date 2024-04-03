@@ -9,3 +9,5 @@
 # Tab System
 
 Simple and Clean Tab System with a lot of flexibility
+
+Dependent on https://github.com/mackysoft/Unity-SerializeReferenceExtensions

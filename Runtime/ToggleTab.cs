@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Resources.Scripts.Content.UI.Utility {
+namespace JoyJab.TabSystem {
 
     /// <summary>
     /// Small utility to extend tab systems to have a fallback tab

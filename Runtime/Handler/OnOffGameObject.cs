@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace UI.TabSystems.Handler {
+namespace JoyJab.TabSystem {
     
     [Serializable]
     public class OnOffGameObject : IOnOffHandler {

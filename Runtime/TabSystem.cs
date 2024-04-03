@@ -1,9 +1,8 @@
 using System;
 using System.Collections.Generic;
-using UI.TabSystems.Handler;
 using UnityEngine;
 
-namespace Resources.Scripts.Content.UI.Utility {
+namespace JoyJab.TabSystem {
 
     public class TabSystem : MonoBehaviour {
 
