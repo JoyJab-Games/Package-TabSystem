@@ -1,0 +1,17 @@
+{
+  "name": "com.joyjab.tab-system",
+  "version": "0.0.1",
+  "displayName": "JoyJab Tab System",
+  "description": "Simple and Clean Tab System with a lot of flexibility",
+  "unity": "2022.1",
+  "license": "MIT",
+  "dependencies": { },
+  "keywords": [
+    "Jesco",
+    "Tabs",
+    "Tab System"
+  ],
+  "author": {
+    "name": "Jesco"
+  }
+}
