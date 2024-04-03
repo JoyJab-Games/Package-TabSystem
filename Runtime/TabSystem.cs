@@ -8,6 +8,7 @@ namespace JoyJab.TabSystem {
 
         public event Action<int> OnTabActive;
 
+        public int TotalTabs => _tabs.Count;
         [SerializeReference, SubclassSelector] private List<IOnOffHandler> _tabs = new();
         
         public int ActiveTab => _activeTab;
@@ -46,6 +47,8 @@ namespace JoyJab.TabSystem {
             OnTabActive?.Invoke(_activeTab);
         }
 
+        public void SwitchToNextTab() => SwitchToTab(_activeTab + 1);
+        public void SwitchToPreviousTab() => SwitchToTab(_activeTab - 1);
     }
 
 }
